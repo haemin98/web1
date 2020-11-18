@@ -4,42 +4,57 @@
   <title>jhm0919 - Welcome</title>
   <meta charset="utf-8">
   <style>
+    body{
+      margin: 5;
+    }
     a {
       color:black;
       text-decoration: none;
     }
+    h1{
+      font-size: 75px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:75px;
+    }
+    ol{
+      font-size: 25px;
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-top: 40px;
+      padding-left: 60px;
+      padding-right: 120px;
+    }
+    #grid #article{
+      padding-top: 20px;
+      padding-left: 200px;
+    }
   </style>
 </head>
 <body>
-  <h1><a href="index.html" style="color:red;text-decoration:underline">레알 마드리드 선수</a></h1>
-  <ol>
-    <li><a href="쿠르투아.html">쿠르투아</a></li>
-    <li><a href="카르바할.html">카르바할</a></li>
-    <li><a href="밀리탕.html">밀리탕</a></li>
-    <li><a href="라모스.html">라모스</a></li>
-  </ol>
+  <h1><a href="index.html">레알 마드리드</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="쿠르투아.html">쿠르투아</a></li>
+      <li><a href="카르바할.html">카르바할</a></li>
+      <li><a href="밀리탕.html">밀리탕</a></li>
+      <li><a href="라모스.html">라모스</a></li>
+    </ol>
+    <div id="article">
   <h2>쿠르투아 스페셜영상</h2>
   <p>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/STo09eyh4p4"
    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
     gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
-  <!--
-  <p><a href="https://www.w3.org/TR/html52/" traget="_blank" title="speicification">
-    Hypertext Markup Language (HTML)</a> is the standard markup language for
-   <strong>creating <u>web</u> pages</strong> and web applications.Webbrowsers
-   receive HTML documents from a web server or fiom local storage and render them
-   into multimedia web pages. HTML describes the structure of a web page semantically
-   and originally included cues for the appearance of the document.
-   <img src="coding.jpg" width="100%">
-   </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML
-  pages. With HTML constructs, images and other objects, such as interactive
-  form, may be embedded into the rendered page. It provides a means to create st
-  ructured documents by denoting structural semantics for text such as headings,
-  paragraphs, lists, links, quotes and other items. HTML elements are delineated
-  by tags, written using angle brackets.
-  </p>
--->
   <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -53,5 +68,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+    </div>
+</div>
 </body>
 </html>
