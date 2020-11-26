@@ -3,56 +3,21 @@
 <head>
   <title>jhm0919 - Welcome</title>
   <meta charset="utf-8">
-  <style>
-    body{
-      margin: 5;
-    }
-    a {
-      color:black;
-      text-decoration: none;
-    }
-    h1{
-      font-size: 80px;
-      text-align: left;
-      border-bottom:5px solid black;
-      margin:0;
-      padding:30px;
-    }
-    ol{
-      font-size: 25px;
-      text-decoration: underline;
-      text-align: left;
-      border-right:5px solid black;
-      width:100px;
-      margin:0;
-    }
-    #grid{
-      display: grid;
-      grid-template-columns: 150px 1fr;
-    }
-    #grid ol{
-      padding-top: 40px;
-      padding-left: 60px;
-      padding-right: 120px;
-    }
-    #grid #article{
-      padding-top: 20px;
-      padding-left: 200px;
-    }
-    @media(max-width:800px){
-      #grid{
-        display: block;
-      }
-      ol{
-        border-right:none;
-      }
-      h1{
-        border-bottom:none;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <input type="button" value="Day"  style="WIDTH: 40pt; HEIGHT: 30pt" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('h1').style.borderBottomColor = 'black';
+    document.querySelector('ol').style.borderRightColor = 'black';
+  ">
+  <input type="button" value="Night" style="WIDTH: 40pt; HEIGHT: 30pt" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('h1').style.borderBottomColor = 'white';
+    document.querySelector('ol').style.borderRightColor = 'white';
+  ">
   <h1><a href="index.html"><img src="사진.png" width="12.5%">  Real Madrid C.F.</a></h1>
   <div id="grid">
     <ol>
@@ -60,6 +25,14 @@
       <li><a href="카르바할.html">카르바할</a></li>
       <li><a href="밀리탕.html">밀리탕</a></li>
       <li><a href="라모스.html">라모스</a></li>
+      <li><a href="바란.html">바란</a></li>
+      <li><a href="나초.html">나초</a></li>
+      <li><a href="아자르.html">아자르</a></li>
+      <li><a href="크로스.html">크로스</a></li>
+      <li><a href="벤제마.html">벤제마</a></li>
+      <li><a href="모드리치.html">모드리치</a></li>
+      <li><a href="아센시오.html">아센시오</a></li>
+      <li><a href="마르셀루.html">마르셀루</a></li>
     </ol>
     <div id="article">
   <h2>쿠르투아 스페셜영상</h2>
